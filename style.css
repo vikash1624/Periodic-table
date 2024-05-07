@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.elementname {
+  text-transform: capitalize;
+}
+
+.elementsymbol {
+  text-transform: capitalize;
+}
+
+body {
+  background-color: #101318;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+.btn {
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  margin: 10px;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+/* Element-box-start */
+.commonbox {
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  margin: 2px;
+  transition: transform 0.2s;
+  transition: 0.3s;
+}
+
+.commonbox:hover {
+  transform: scale(1.4);
+  background-color: #101318;
+}
+
+.elementnumber {
+  font-weight: 600;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.elementsymbol {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+.elementname {
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+/* Element-box-end */
+
+/*============= C-1 =================*/
+
+.c1 {
+  border: 2px solid #52ee61;
+}
+
+.c1 p {
+  color: #52ee61;
+  text-shadow: 0px 0px 10px rgba(82, 238, 97, 1);
+}
+
+.b1 {
+  color: #52ee61;
+  text-shadow: 0px 0px 10px rgba(82, 238, 97, 1);
+}
+
+/*============= C-2 =================*/
+
+.c2 {
+  border: 2px solid #ecbe59;
+}
+
+.c2 p {
+  color: #ecbe59;
+  text-shadow: 0px 0px 10px rgba(236, 190, 89, 1);
+}
+
+.b2 {
+  color: #ecbe59;
+  text-shadow: 0px 0px 10px rgba(236, 190, 89, 1);
+}
+
+/*============= C-3 =================*/
+
+.c3 {
+  border: 2px solid #dee955;
+}
+
+.c3 p {
+  color: #dee955;
+  text-shadow: 0px 0px 10px rgba(222, 233, 85, 1);
+}
+
+.b3 {
+  color: #dee955;
+  text-shadow: 0px 0px 10px rgba(222, 233, 85, 1);
+}
+
+/*============= C-4 =================*/
+
+.c4 {
+  border: 2px solid #fd8572;
+}
+
+.c4 p {
+  color: #fd8572;
+  text-shadow: 0px 0px 10px rgba(253, 133, 114, 1);
+}
+
+.b4 {
+  color: #fd8572;
+  text-shadow: 0px 0px 10px rgba(253, 133, 114, 1);
+}
+
+/*============= C-5 =================*/
+
+.c5 {
+  border: 2px solid #3aefb6;
+}
+
+.c5 p {
+  color: #3aefb6;
+  text-shadow: 0px 0px 10px rgba(58, 239, 182, 1);
+}
+
+.b5 {
+  color: #3aefb6;
+  text-shadow: 0px 0px 10px rgba(58, 239, 182, 1);
+}
+
+/*============= C-6 =================*/
+
+.c6 {
+  border: 2px solid #4cddf3;
+}
+
+.c6 p {
+  color: #4cddf3;
+  text-shadow: 0px 0px 10px rgba(76, 221, 243, 1);
+}
+
+.b6 {
+  color: #4cddf3;
+  text-shadow: 0px 0px 10px rgba(76, 221, 243, 1);
+}
+
+/*============= C-7 =================*/
+
+.c7 {
+  border: 2px solid #cccccc;
+}
+
+.c7 p {
+  color: #cccccc;
+  text-shadow: 0px 0px 10px rgba(204, 204, 204, 1);
+}
+.b7 {
+  color: #cccccc;
+  text-shadow: 0px 0px 10px rgba(204, 204, 204, 1);
+}
+
+/*============= C-8 =================*/
+
+.c8 {
+  border: 2px solid #759fff;
+}
+
+.c8 p {
+  color: #759fff;
+  text-shadow: 0px 0px 10px rgba(117, 159, 255, 1);
+}
+
+.b8 {
+  color: #759fff;
+  text-shadow: 0px 0px 10px rgba(117, 159, 255, 1);
+}
+
+/*============= C-9 =================*/
+
+.c9 {
+  border: 2px solid #ec77a3;
+}
+
+.c9 p {
+  color: #ec77a3;
+  text-shadow: 0px 0px 10px rgba(236, 119, 163, 1);
+}
+
+.b9 {
+  color: #ec77a3;
+  text-shadow: 0px 0px 10px rgba(236, 119, 163, 1);
+}
+
+/*============= C-10 =================*/
+
+.c10 {
+  border: 2px solid #c686cc;
+}
+
+.c10 p {
+  color: #c686cc;
+  text-shadow: 0px 0px 10px rgba(198, 134, 204, 1);
+}
+
+.b10 {
+  color: #c686cc;
+  text-shadow: 0px 0px 10px rgba(198, 134, 204, 1);
+}
+
+.c11 {
+  opacity: 10%;
+
+}
+ .c11:hover{
+  transform: scale(1);
+  background-color: #101318;
+ }
+
+.btn:hover {
+  color: blue;
+  text-shadow: 0px 0px 10px rgb(10, 49, 224);
+}
+
+.line {
+  position: absolute;
+  top: 585px;
+  left: 188px;
+}
+
+.ver {
+  height: 170px;
+  width: 2px;
+  background-color: rgb(175, 71, 223);
+}
+.hr {
+  width: 50px;
+  height: 2px;
+  background-color: rgb(175, 71, 223);
+}
